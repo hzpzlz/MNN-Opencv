@@ -63,3 +63,5 @@ target_link_libraries(RFDN_woESA.out ${MNN_DEPS}
 ### opencv Mat permute
 - https://www.zhihu.com/question/400627328
 - https://docs.opencv.org/3.4/d6/d0f/group__dnn.html#ga29f34df9376379a603acd8df581ac8d7
+### json文件
+- https://github.com/alibaba/MNN/blob/master/tools/quantization/preprocessConfig.json
