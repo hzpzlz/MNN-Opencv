@@ -25,10 +25,10 @@ using namespace MNN::CV;
 int main()
 {
    //complete your img path and xxx.mnn model path
-    const char* input_image_path = "/home/notebook/data/group/hezhipeng/test.png";
-    const char* output_image_path = "/home/notebook/data/group/hezhipeng/test_mnn.png";
+    const char* input_image_path = "test.png";
+    const char* output_image_path = "test_mnn.png";
     
-    const char* model_name = "/home/notebook/data/group/hezhipeng/results/qatme/experiments/RFDN_x4_myqat_WandF_MA/models/RFDN_x4_myqat_WandF_MA_512x512.mnn";
+    const char* model_name = "xxx.mnn";
     
     cv::Mat input_img = cv::imread(input_image_path);
     cv::Mat input_img_f;
