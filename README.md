@@ -24,3 +24,15 @@ target_link_libraries(RFDN_woESA.out ${MNN_DEPS}
 /usr/local/lib/libopencv_dnn.so.3.4.7
 /usr/local/lib/libopencv_dnn_objdetect.so.3.4.7
 ```
+## 3 参考链接
+- https://blog.csdn.net/XDH19910113/article/details/100099318
+### 官方文档
+- https://www.yuque.com/mnn/cn/output
+### MNN输入输出
+- https://github.com/alibaba/MNN/issues/909
+- https://blog.csdn.net/qq_37546267/article/details/108056650
+### CmakeLists.txt配置
+- https://github.com/alibaba/MNN/issues/666
+### opencv Mat permute
+- https://www.zhihu.com/question/400627328
+- https://docs.opencv.org/3.4/d6/d0f/group__dnn.html#ga29f34df9376379a603acd8df581ac8d7
